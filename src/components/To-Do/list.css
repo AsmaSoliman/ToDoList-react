@@ -1,0 +1,48 @@
+.List-container{
+    width: 100%;
+    position: absolute;
+    left: 10%;
+    top:20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.add-item{
+    width: 30%;
+    padding: .5rem;
+    border-radius: 2rem 0 0 2rem;
+    border: .3rem solid palevioletred;
+    color: palevioletred;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+    
+}
+.add-btn{
+    outline: none;
+    border-radius: 0 2rem 2rem 0;
+    padding: .5rem;
+    color: white;
+    background-color: palevioletred;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.deleted-list{
+    position: relative;
+    top:10%;
+    left: 60%;
+    border:.5rem solid palevioletred;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.done-list{
+    position: relative;
+    top:40%;
+    left: 60%;
+    border:.5rem solid palevioletred;
+    padding: 1rem;
+}
+.title
+{
+    color: white;
+}
